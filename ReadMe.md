@@ -28,7 +28,7 @@ To get started with this project, follow these steps:
 
 - Clone this repository to your local machine
 `git@github.com:NavGithub15/fulhaus-test-BE.git`
-- `cd` into `fulhaus-backend`
+- `cd` into `fulhaus-test-BE`
 
 - Add the Envireonment Variables
 `MONGO_URI=mongodb+srv://username:KjiZwBdDVs0y5D1s@cluster0.lbpbt05.mongodb.net/?retryWrites=true&w=majority`
