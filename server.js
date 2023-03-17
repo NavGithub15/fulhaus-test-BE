@@ -1,10 +1,18 @@
+require('dotenv').config();
 const express = require('express');
 const app = express();
-const port = process.env.PORT || 3000;
+const port = process.env.PORT || 8000;
+const cors = require("cors");
+const acronymRoutes = require('./routes/acronymRoutes');
+const connectDB = require("./config/db");
 
-app.get('/', (req, res) => {
-  res.send('Hello World!');
-});
+app.use(express.json());
+
+app.use(cors());
+
+connectDB();
+
+app.use('/acronym', acronymRoutes);
 
 app.listen(port, () => {
   console.log(`Server running at http://localhost:${port}`);
