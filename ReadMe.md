@@ -51,8 +51,15 @@ Updates the acronym for :acronymID.
 ### DELETE /acronym/:acronymID
 Deletes the acronym for :acronymID.
 
+## Future Implementation
 
+- Create a Front End application to provide CRUD operations
 
+- Unit testing
+
+- Error handling
+
+- Authentication and Authorization
 
 
 ## Conclusion
