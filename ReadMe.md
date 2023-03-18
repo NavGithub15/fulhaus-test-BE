@@ -6,7 +6,7 @@ This project is a back-end technical assessment for Fulhaus. The objective of th
 
 ## Requirements
 
-The application must meet the following requirements:
+The assessment requirements:
 
 - Build a REST API for acronyms (a basic CRUD Operation).
 - Create a NodeJS server using ExpressJS and modern best practices for API development.
